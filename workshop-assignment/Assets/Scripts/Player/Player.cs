@@ -87,7 +87,6 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(moveDirection);
         characterController.Move(new Vector3(moveDirection.x * movementSpeed, 0, moveDirection.y * movementSpeed));
     }
 

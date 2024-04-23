@@ -46,6 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponType: 2
+  maxBulletsInMag: 20
+  reloadTimeInSeconds: 1
+  canReload: 1
   damage: 20
   fireRatePerSecond: 5
   bulletFactory: {fileID: 11400000, guid: 9bcbbb5d124a49c40b92995218f7a340, type: 2}
